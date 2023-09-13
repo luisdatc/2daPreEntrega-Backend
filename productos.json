@@ -1,0 +1,206 @@
+[
+  {
+    "title": "Thor: Vikings (2003) #4",
+    "description": "Thor and Dr. Strange go back through time to gather a force to face the ZOMBIE VIKINGS!!",
+    "price": 3.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "TV2003",
+    "stock": 5,
+    "id": 1
+  },
+  {
+    "title": "The Eternal #6",
+    "description": "The shocking series conclusion! A devastating clash between Eternals and Celestials leaves no one unchanged... and has consequences of cosmic proportions!",
+    "price": 6.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "ET169",
+    "stock": 6,
+    "id": 2
+  },
+  {
+    "title": "Hulk: Nightmerica #5",
+    "description": "The finest minds in the world have tried and failed to cure Bruce Banner of the awful curse of the Hulk. But, perhaps, at long last, in the depths of the Nightmerica Compound, that long sought cure may have finally been found. But is it simply an act of pure benevolence, or is there a hidden agenda behind it all?",
+    "price": 2.99,
+    "thumbnail": "alguna ruta",
+    "code": "HN382",
+    "status": true,
+    "stock": 10,
+    "id": 3
+  },
+  {
+    "title": "Supreme Power #3",
+    "description": "When reports of a secretive government project 'Hyperion' begin to surface in shadowy circles, investigative reporter Jason Scott starts to see a connection. And when he tracks down a woman who swears that she and her husband found a baby who crash-landed a spaceship in a cornfield, he thinks he has found the key.  What will the government do if he uncovers their secret super hero?  Will they let Jason continue to uncover details ... or will they silence him?",
+    "price": 7.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "DSP182",
+    "stock": 7,
+    "id": 4
+  },
+  {
+    "title": "Spider-Girl (1998) #67",
+    "description": "Spider-Girl learns that sometimes you just have to take one for the team when she loses one regular cast member, grows more distant from a second and learns something terrible about a third.",
+    "price": 9.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "SG191",
+    "stock": 2,
+    "id": 5
+  },
+  {
+    "title": "Mystique #21",
+    "description": "Mystique is caught between two masters-one, mutant activist Charles Xavier; the other, the mysterious Quiet Man. Now, the time has come when she can no longer serve both!",
+    "price": 10.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/1/50/580fe48216977.jpg",
+    "status": true,
+    "code": "MT010",
+    "stock": 1,
+    "id": 6
+  },
+  {
+    "title": "Spider-Man/Doctor Octopus: Negative Exposure #3",
+    "description": "The sinister plans of Doc Ock slowly simmer through the bars of Riker's Island as Spider-Man comes face-to-face with Peter Parker's arch-nemesis. An action-packed issue also featuring a mysterious guest appearance from one of Spider-Man's most dreaded foes.",
+    "price": 6.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "code": "SO296",
+    "stock": 3,
+    "id": 7
+  },
+  {
+    "title": "Ant-Man #1",
+    "description": "Size does matter.  And no one knows this more than Hank Pym - a.k.a. Ant-Man. Got a problem with Galactus? Call the FF. Got a problem with, say, mind-controlled cockroaches? Then Ant-Man's your man! And needless to say, it's done a number on our diminutive hero's self-esteem.  When Ant-Man is tapped to infiltrate an international spy ring that has been siphoning secrets out of Washington, he jumps at the chance - unaware that he's being used as a pawn in a larger game of espionage.",
+    "price": 10.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AM291",
+    "stock": 5,
+    "id": 8
+  },
+  {
+    "title": "Wolverine/Captain America #1",
+    "description": "It's a Marvel team-up for the ages in this 4-issue weekly limited series event! When a highly coveted piece of alien Shi'Ar technology en route from the X-Men's headquarters to Avengers Mansion gets intercepted by a rogue group of ex-S.H.I.E.L.D. super agents, both teams send their best chance to get it back into the field! Can these two VERY different heroes work together for a common cause?",
+    "price": 5.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "WC260",
+    "stock": 4,
+    "id": 9
+  },
+  {
+    "title": "Weapon X  #15",
+    "description": "An X-MAN joins the WEAPON X team in this start of a new story arc!",
+    "price": 3.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "WX244",
+    "stock": 4,
+    "id": 10
+  },
+  {
+    "title": "Emma FrosT #4",
+    "description": "Vacationing with her family in Peru, young Emma Frost discovers her newfound mutant powers aren't the only secret that her family is keeping! The perils and thrills of being a mutant set in as Emma slowly blossoms into the dangerous and seductive X-Man of today!",
+    "price": 5.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "EF312",
+    "stock": 10,
+    "id": 11
+  },
+  {
+    "title": "Punisher #33",
+    "description": "It might be The Punisher's final hour as DAREDEVIL, SPIDER-MAN, and WOLVERINE team up to bring Frank Castle's killing spree to an end. And what does the HULK have to do with it all?",
+    "price": 12.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "PU114",
+    "stock": 10,
+    "id": 12
+  },
+  {
+    "title": "Venom #11",
+    "description": "Certain questions have arisen since Venom's mysterious appearance at the Radar Station in Northern Canada. Like, how did he get there? Where's Eddie Brock? And, what turned this one-time 'Lethal Protector' into a bloodthirsty homicidal maniac? The answers to these questions will be revealed with the help of a few guest stars.",
+    "price": 9.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "VN264",
+    "stock": 9,
+    "id": 13
+  },
+  {
+    "title": "Hawkeye #4",
+    "description": "Hawkeye's Myrtle Beach mystery spirals out of Clint's control just as the little Southern secret worth hundreds of millions of dollars was coming into focus. What was the \"Unity Pact\" that bound a group of Vietnam vets together and is the answer still a world away in Laos? The only way for Clint and a motley band of misfits to find out might be to go on a little road trip...",
+    "price": 4.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "HE316",
+    "stock": 9,
+    "id": 14
+  },
+  {
+    "title": "Marvel Age Fantastic Four #8",
+    "description": "A single-issue story and a great jumping-on point for comics' longest-running female headliner!  As Courtney Duran finally learns Moose's terrible secret, Davida Kirby helps an injured Spider-Girl against the monstrous Dragon King.",
+    "price": 7.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "FF036",
+    "stock": 8,
+    "id": 15
+  },
+  {
+    "title": "Amazing Fantasy #6",
+    "description": "It's the end of the origin of Anya Corazon - and a new beginning.  But, first, the question on everyone's mind: what's the public identity of Marvel's newest media darling? Well, we won't tell you here, but we will tell you folks are clamoring for the inside scoop and a glimpse of this amazing spider-like teen, who's now been seen everywhere from Telemundo to Fox News to the NY Daily News - not bad for a Latina from Brooklyn!",
+    "price": 8.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AF045",
+    "stock": 3,
+    "id": 16
+  },
+  {
+    "title": "1",
+    "description": "1",
+    "price": "1",
+    "thumbnail": "1",
+    "code": "1",
+    "stock": "1",
+    "id": 17
+  },
+  {
+    "title": "2",
+    "description": "2",
+    "price": "2",
+    "thumbnail": "2",
+    "code": "2",
+    "stock": "2",
+    "id": 18
+  },
+  {
+    "title": "3",
+    "description": "3",
+    "price": "3",
+    "thumbnail": "3",
+    "code": "3",
+    "stock": "3",
+    "id": 19
+  },
+  {
+    "title": "4",
+    "description": "4",
+    "price": "4",
+    "thumbnail": "4",
+    "code": "4",
+    "stock": "4",
+    "id": 20
+  },
+  {
+    "title": "5",
+    "description": "5",
+    "price": "5",
+    "thumbnail": "5",
+    "code": "5",
+    "stock": "5",
+    "id": 21
+  }
+]

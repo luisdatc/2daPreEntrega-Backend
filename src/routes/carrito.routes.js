@@ -28,7 +28,7 @@ cartsRouter.get("/:cid", async (req, res) => {
 
 cartsRouter.post("/", async (req, res) => {
   try {
-    const cart = await cartModel.create();
+    const cart = await cartModel.create({});
     res.status(200).send({ respuesta: "OK", mensaje: cart });
   } catch (error) {
     res
@@ -37,7 +37,7 @@ cartsRouter.post("/", async (req, res) => {
   }
 });
 
-cartsRouter.post("/:cid/product/:pid", async (req, res) => {
+cartsRouter.post("/:cid/products/:pid", async (req, res) => {
   const { cid, pid } = req.params;
   const { quantity } = req.body;
 

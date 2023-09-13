@@ -8,6 +8,7 @@ import path from "path";
 import productosRouter from "./routes/products.routes.js";
 import cartsRouter from "./routes/carrito.routes.js";
 import { productModel } from "./models/products.models.js";
+import { cartModel } from "./models/cart.models.js";
 
 const app = express();
 const PORT = 8080;
@@ -19,7 +20,7 @@ const serverExpress = app.listen(PORT, () => {
 //Conexion a la Base de Datos
 mongoose
   .connect(
-    "mongodb+srv://luisct91:password@cluster0.kvfp5k9.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://luisct91:21210ldtc@cluster0.kvfp5k9.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => console.log("DB Conectada"))
   .catch(() => console.log("Error en conexion a BDD"));
@@ -29,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.engine("handlebars", engine()); //defino el motor de plantillas a usar y la config
 app.set("view engine", "handlebars"); //setting de mi app de handlebars
-app.set("views", path.resolve(__dirname, "./views")); //rresuelve rutas absolutas a travez de rutas relativas
+app.set("views", path.resolve(__dirname, "./views")); //resuelve rutas absolutas a travez de rutas relativas
 app.use("/static", express.static(path.join(__dirname, "/public")));
 
 // Server Socket.io
