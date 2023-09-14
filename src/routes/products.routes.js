@@ -4,15 +4,42 @@ import { productModel } from "../models/products.models.js";
 const productosRouter = Router();
 
 productosRouter.get("/", async (req, res) => {
-  const { limit } = req.query;
+  const { limit, page, category, sort } = req.query;
+
+  let queries = {};
+
+  if (category) {
+    queries.category = category;
+  }
 
   try {
-    const prods = await productModel.find().limit(limit);
-    res.status(200).send({ respuesta: "OK", mensaje: prods });
+    let options = {
+      limit: parseInt(limit) || 10,
+      page: parseInt(page) || 1,
+    };
+
+    if (sort) {
+      options.sort = {
+        price: sort === "asc" ? 1 : -1,
+      };
+    }
+
+    const prods = await productModel.paginate(queries, options);
+
+    const respuesta = {
+      status: "success",
+      payload: prods.docs,
+      totalPages: prods.totalPages,
+      prevPage: prods.prevPage,
+      nextPage: prods.nextPage,
+      page: prods.page,
+      hasPrevPage: prods.hasPrevPage,
+      hasNextPage: prods.hasNextPage,Ñ
+    };
+
+    res.status(200).send({ respuesta: "OK", mensaje: respuesta });
   } catch (error) {
-    res
-      .status(400)
-      .send({ respuesta: "Error en consultar el producto", mensaje: error });
+    res.status(400).send({ respuesta: "Error en consultar ", mensaje: error });
   }
 });
 
@@ -87,7 +114,7 @@ productosRouter.delete("/:id", async (req, res) => {
 });
 
 productosRouter.post("/", async (req, res) => {
-  const { title, description, stock, code, price } = req.body;
+  const { title, description, stock, code, price, category } = req.body;
 
   try {
     const prod = await productModel.create({
@@ -96,6 +123,7 @@ productosRouter.post("/", async (req, res) => {
       stock,
       code,
       price,
+      category,
     });
     res.status(200).send({ respuesta: "OK", mensaje: prod });
   } catch (error) {
